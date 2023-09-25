@@ -1,0 +1,43 @@
+#about
+{
+    padding:  120px 64px 48px;
+}
+
+.About-description
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 650px;
+}
+
+.About-description h1
+{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.About-description h3
+{
+    font-style: italic;
+    font-size: 32px;
+}
+
+.About-skills
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 4px;
+    row-gap: 8px;
+}
+
+.About-skillItem
+{
+    padding: 4px;
+    background-color: #FAFAFA;
+    color: #181818;
+    width: auto;
+    border-radius: 6px;
+    font-weight: bold;
+}

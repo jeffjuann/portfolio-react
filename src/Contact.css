@@ -1,0 +1,64 @@
+#contact
+{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    gap: 28px;
+}
+
+#contact h1
+{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.Contact-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.Contact-left
+{
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.Contact-right
+{
+    display: flex;
+    min-width: 50%;
+    flex-direction: column;
+    gap: 24px;
+}
+.Contact-item
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Contact-icon 
+{
+    aspect-ratio: 1;
+    width:28px;
+    border: none;
+}
+
+.Contact-item-left
+{
+    flex-direction: row-reverse;
+}
+
+.Contact-item-right
+{
+    flex-direction: row;
+}

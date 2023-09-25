@@ -1,0 +1,109 @@
+#works
+{
+    padding:  120px 64px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.Works-title
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    max-width: 670px;
+    text-align: center;
+}
+
+.Works-title h1
+{
+    font-style: italic;
+    font-size: 36px;
+}
+
+.Works-project
+{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Works-newest
+{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../assets/projects/Cashflow.png');
+    background-size: 100%;
+    background-position: 50%;
+    transition: all ease-in-out 0.3s;
+}
+
+.Works-newest:hover
+{
+    background-size: 103%;
+    transition: all ease-in-out 0.3s;
+}
+
+.Works-top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Works-latest
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 80vw;
+    height: 80vh;
+    gap: 24px;
+}
+
+.Works-left
+{
+    background-image: url("../assets/projects/StockNShare.png");
+    background-size: 200%;
+    background-position: 50%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    transition: all ease-in-out 0.3s;
+}
+
+.Works-left:hover
+{
+    background-size: 210%;
+    transition: all ease-in-out 0.3s;
+}
+
+.Works-right
+{
+    background-size: 100%;
+    background-position: 50%;
+    transition: all ease-in-out 0.3s;
+}
+.Works-right-1
+{
+    background-image: url("../assets/projects/Nutrisense.jpg");
+}
+.Works-right-2
+{
+    background-image: url("../assets/projects/SimpleCRUD.jpg");
+}
+
+.Works-right:hover
+{
+    background-size: 103%;
+    background-position: 50%;
+    transition: all ease-in-out 0.3s;
+}
