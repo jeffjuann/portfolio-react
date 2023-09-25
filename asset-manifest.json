@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.96f63aed.css",
-    "main.js": "/portfolio/static/js/main.e2c4d720.js",
+    "main.js": "/portfolio/static/js/main.48c0c445.js",
     "static/media/StockNShare.png": "/portfolio/static/media/StockNShare.bc3c9eab291a8c51177c.png",
     "static/media/Nutrisense.jpg": "/portfolio/static/media/Nutrisense.1ce2b5400d35a691bf7a.jpg",
     "static/media/Cashflow.png": "/portfolio/static/media/Cashflow.6fb7fd3c99293914eafc.png",
     "static/media/SimpleCRUD.jpg": "/portfolio/static/media/SimpleCRUD.5f7a8e131e1dcbeb0a0b.jpg",
     "index.html": "/portfolio/index.html",
     "main.96f63aed.css.map": "/portfolio/static/css/main.96f63aed.css.map",
-    "main.e2c4d720.js.map": "/portfolio/static/js/main.e2c4d720.js.map"
+    "main.48c0c445.js.map": "/portfolio/static/js/main.48c0c445.js.map"
   },
   "entrypoints": [
     "static/css/main.96f63aed.css",
-    "static/js/main.e2c4d720.js"
+    "static/js/main.48c0c445.js"
   ]
 }
