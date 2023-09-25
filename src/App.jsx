@@ -47,7 +47,7 @@ function App() {
             {
               setActive({ left: 12 })
               // window.location.replace("/#home")  
-              window.location.replace("/portfolio/#home")  
+              window.location.replace("/portfolio#home")  
             }}>
             HOME
           </li>
@@ -55,7 +55,7 @@ function App() {
             {
               setActive({left: 114.6})
               // window.location.replace("/#about")  
-              window.location.replace("/portfolio/#about")  
+              window.location.replace("/portfolio#about")  
             }}> 
             ABOUT ME
           </li>
@@ -63,7 +63,7 @@ function App() {
             {
               setActive({ left: 217.2 })
               // window.location.replace("/#works")  
-              window.location.replace("/portfolio/#works")  
+              window.location.replace("/portfolio#works")  
             }}>  
             WORKS
           </li>
@@ -86,7 +86,7 @@ function App() {
               {
                 setActive({ left: 217.2 })
                 // window.location.replace("/#contact")  
-                window.location.replace("/portfolio/#contact")  
+                window.location.replace("/portfolio#contact")  
               }}>
                 CONTACT ME
               </button>
